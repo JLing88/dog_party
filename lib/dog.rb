@@ -1,5 +1,5 @@
 class Dog
-  
+
   attr_reader :name,
               :age,
               :breed
@@ -9,4 +9,9 @@ class Dog
     @age   = age
     @breed = breed
   end
+
+  def bark
+    "Woof!"
+  end
+
 end
